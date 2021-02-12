@@ -1,0 +1,7 @@
+version: "3.5"
+services: 
+  shoppingcare-admin:
+    image:
+      - vinhmh98/shoppingcare-admin
+    ports: 
+      - 8081:80
